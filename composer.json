@@ -1,0 +1,19 @@
+{
+    "name": "admin/blog",
+    "authors": [
+        {
+            "name": "qwe"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Controllers\\": "app/controllers",
+            "App\\Services\\": "app/services",
+            "App\\Models\\": "app/models",
+            "Framework\\Support\\": "framework/support"
+        }
+    }
+}
